@@ -4,28 +4,26 @@
         <meta charset="UTF">
         <meta name="viewport" content="width=device-content", initial-scale="1.0">
         <title>Tic-Tac-Toe</title>
-        <link rel="stylesheet" href="./index.css">
         <script defer src="./index.js"></script>
-        <!-- <script defer src="./bundle.js"></script> -->
+        <link rel="stylesheet" href="./index.css">
+        
     </head>
     <body>
-        <section id= "InputSection">
-            <table id="table">
-                <tr>
-                    <td><input type="submit" id ='A1'></td>
-                    <td><input type="submit" id ='A2'></td>
-                    <td><input type="submit" id ='A3'></td>
-                </tr>
-                <tr><td><input type="submit" id ='B1'></td>
-                    <td><input type="submit" id ='B2'></td>
-                    <td><input type="submit" id ='B3'></td>
-                </tr>
-                <tr><td><input type="submit" id ='C1'></td>
-                    <td><input type="submit" id ='C2'></td>
-                    <td><input type="submit" id ='C3'></td>
-                </tr>
-            </table>
-            <p></p>
-        </section> 
+        <div>
+            <h1 id="gameHeader">Let's play Tic-Tac-Toe</h1>
+            <div id="board-container">
+                <div class="cell" cellIndex="0"></div>
+                <div class="cell" cellIndex="1"></div>
+                <div class="cell" cellIndex="2"></div>
+                <div class="cell" cellIndex="3"></div>
+                <div class="cell" cellIndex="4"></div>
+                <div class="cell" cellIndex="5"></div>
+                <div class="cell" cellIndex="6"></div>
+                <div class="cell" cellIndex="7"></div>
+                <div class="cell" cellIndex="8"></div>
+            </div>
+            <h2 id="statusText"></h2>
+            <button id="btnRestart">Restart Game</button>
+        </div>  
     </body>
 </html>
